@@ -1,0 +1,111 @@
+*{
+    padding: 0;
+    margin: 0;
+    box-sizing: border-box;
+}
+.main{
+    width: 100vw;
+    height: 100vh;
+}
+.header{
+    height: 12%;
+    margin: 0;
+    box-shadow: 0px 4px 10px rgb(0 0 0 / 5%);
+}
+.sub-header{
+    padding: 0;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+.click-header-avt{
+    width: 100%;
+    height: 60%;
+    border-right: 0.5px solid;
+    border-color: rgb(108, 110, 110);
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+.click-header-avt a{
+    text-decoration: none;
+    font-family:inherit;
+}
+.click-header-avt img{
+    margin-right: 20px;
+    margin-bottom: 10px;
+}
+#neko{
+    font-weight: 700;
+    font-size: 30px;
+    font-family:inherit;
+    color: rgb(59, 69, 78);
+}
+#neko:hover{
+    color: rgb(101, 101, 236);
+}
+.click-header-search{
+    width: 100%;
+    height: 60%;
+    border-left: 0.5px solid;
+    border-color: rgb(108, 110, 110);
+    display: flex;
+    align-items: center;
+}
+.click-header-search a{
+    margin-left: 20px;
+    text-decoration: none;
+    color: rgb(108, 110, 110);
+}
+.click-header-search a i{
+    margin-right: 10px;
+}
+.click-header-search a:hover{
+    color: rgb(101, 101, 236);
+}
+
+/* content--------------------- */
+.content{
+    margin: 0;
+    padding: 0;
+    width: 100%;
+    height: 88%;
+}
+.sub-content{
+    margin-left: 20px;
+    margin: 0;
+    padding: 0;
+    background-color: rgb(227, 233, 235);
+}
+.nav-bar{
+    width: 90%;
+    height: 550px;
+    float: right;
+    border-color: rgb(108, 110, 110);
+    overflow-y: scroll;
+}
+.nav-bar-ul{
+    list-style-type: none;
+    position: relative;
+}
+.nav-bar-ul li a{
+    text-decoration: none;
+    color: rgba(92,105,117,1.00);
+}
+.nav-bar-ul li{
+    padding: 10px 0;
+}
+.nav-bar-ul li:hover{
+    background-color: rgb(190, 190, 201);
+}
+.nav-bar-ul li a{
+    margin-left: 10px;
+}
+.bybook{
+    position: absolute;
+    top: 90%;
+    left: 4.8%;
+    background-color: rgb(189, 189, 209);
+    padding: 10px 50px;
+    cursor: pointer;
+}
